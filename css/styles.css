@@ -1,6 +1,7 @@
 body {
-  font-family: "Roboto", "Raleway", sans-serif;
-  color: #2e2f42;
+  font-family: "Roboto", sans-serif;
+  background-color: #ffffff;
+  color: #434455;
 }
 
 .neader-conteiner {
@@ -9,92 +10,96 @@ body {
 }
 
 .logo-studio {
-  font-weight: 700px;
-  font-size: 18px;
-  line-height: 1.16667;
-  text-transform: uppercase;
-  color: #2e2f42;
-}
-
-span {
   font-family: "Raleway", sans-serif;
-  font-weight: 700px;
+  font-weight: 700;
   font-size: 18px;
-  line-height: 1.16667;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
   color: #4d5ae5;
 }
 
 .nav-header {
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   color: #2e2f42;
   text-decoration: none;
+  letter-spacing: 0.02em;
 }
 
-.nav-header:hover {
+.nav-header:hover,
+.nav-header:focus {
   color: #404bbf;
-}
-
-.nav-header:active {
-  color: #404bbf;
-  text-decoration: underline;
 }
 
 .address-header {
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
   color: #434455;
+  font-style: normal;
 }
 
-.address-header:hover {
+.address-header:hover,
+.address-header:focus {
   color: #404bbf;
 }
 
-h1 {
+.title-h {
   text-align: center;
-  font-weight: 700px;
+  font-weight: 700;
   font-size: 56px;
-  line-height: 1.07143;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
   color: #fff;
 }
 
-.title-page {
+.title-container {
   background-color: #2e2f42;
   height: 600px;
 }
 
 .button-main-page {
-  font-weight: 500px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.04em;
   color: #fff;
   background-color: #4d5ae5;
-  border-radius: 4px;
-  padding: 16px 32px;
-  width: 169px;
-  height: 56px;
   cursor: pointer;
   border: none;
 }
 
-.button-main-page:hover {
+.button-main-page:hover,
+.button-main-page:focus {
   background: #404bbf;
 }
 
-h3 {
+.section-two-title {
   font-size: 20px;
   line-height: 1.2;
-  font-weight: 500px;
+  letter-spacing: 0.02em;
+  font-weight: 500;
 }
 
-p {
+.descr-advantages {
   font-size: 16px;
   line-height: 1.5;
   color: #434455;
+  letter-spacing: 0.02em;
 }
 
-h2 {
+.team {
+  background-color: #f4f4fd;
+}
+
+.team-list {
   font-size: 36px;
-  line-height: 1.11111;
-  font-weight: 700px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
 }
