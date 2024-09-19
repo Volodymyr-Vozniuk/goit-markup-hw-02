@@ -1,0 +1,100 @@
+body {
+  font-family: "Roboto", "Raleway", sans-serif;
+  color: #2e2f42;
+}
+
+.neader-conteiner {
+  background-color: #fff;
+  height: 72px;
+}
+
+.logo-studio {
+  font-weight: 700px;
+  font-size: 18px;
+  line-height: 1.16667;
+  text-transform: uppercase;
+  color: #2e2f42;
+}
+
+span {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700px;
+  font-size: 18px;
+  line-height: 1.16667;
+  color: #4d5ae5;
+}
+
+.nav-header {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #2e2f42;
+  text-decoration: none;
+}
+
+.nav-header:hover {
+  color: #404bbf;
+}
+
+.nav-header:active {
+  color: #404bbf;
+  text-decoration: underline;
+}
+
+.address-header {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #434455;
+}
+
+.address-header:hover {
+  color: #404bbf;
+}
+
+h1 {
+  text-align: center;
+  font-weight: 700px;
+  font-size: 56px;
+  line-height: 1.07143;
+  color: #fff;
+}
+
+.title-page {
+  background-color: #2e2f42;
+  height: 600px;
+}
+
+.button-main-page {
+  font-weight: 500px;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #fff;
+  background-color: #4d5ae5;
+  border-radius: 4px;
+  padding: 16px 32px;
+  width: 169px;
+  height: 56px;
+  cursor: pointer;
+  border: none;
+}
+
+.button-main-page:hover {
+  background: #404bbf;
+}
+
+h3 {
+  font-size: 20px;
+  line-height: 1.2;
+  font-weight: 500px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #434455;
+}
+
+h2 {
+  font-size: 36px;
+  line-height: 1.11111;
+  font-weight: 700px;
+}
