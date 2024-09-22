@@ -4,6 +4,15 @@ body {
   color: #434455;
 }
 
+a {
+  text-decoration: none;
+}
+
+ul,
+li {
+  list-style-type: none;
+}
+
 .neader-conteiner {
   background-color: #ffffff;
 }
@@ -27,7 +36,6 @@ body {
   font-size: 16px;
   line-height: 1.5;
   color: #2e2f42;
-
   letter-spacing: 0.02em;
 }
 
@@ -153,7 +161,7 @@ body {
   letter-spacing: 0.02em;
 }
 
-.footer-backgr {
+.footer-container {
   background-color: #2e2f42;
 }
 
